@@ -1,0 +1,9 @@
+/* ACTIONS */
+
+/* Common */
+export const CLEAR_STORE = 'CLEAR_STORE';
+
+/* Home Page */
+export const FETCH_DATA_HOME_PAGE = "FETCH_DATA_HOME_PAGE";
+export const RECEIVE_DATA_HOME_PAGE = "RECEIVE_DATA_HOME_PAGE";
+export const FAILED_RECIEVE_DATA_HOME_PAGE = "FAILED_RECIEVE_DATA_HOME_PAGE";

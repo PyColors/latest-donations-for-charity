@@ -1,0 +1,17 @@
+.app-bar {
+    &__brand-logo {
+        width: 140px;
+        position: relative;
+        top: 4px;
+    }
+
+    &__link {
+        color: white;
+    }
+
+    &__img-build-travis {
+        position: relative;
+        right: 3px;
+        top: 4px;
+    }
+}
