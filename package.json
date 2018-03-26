@@ -1,10 +1,10 @@
 {
-  "name": "play-videos-simultaneously",
+  "name": "latest-donations-for-charity",
   "version": "1.0.0",
   "description": "",
   "main": "webpack.config.js",
   "scripts": {
-    "build": "node webpack/build.js",
+    "build": "NODE_ENV=production node webpack/build.js  --progress",
     "dev": "node webpack/dev.js watch-css",
     "scss": "watch-css",
     "watch-css": "node-sass src/scss/index.scss --watch",
@@ -12,6 +12,7 @@
     "test:watch": "jest --watch",
     "test:coverage": "jest --coverage"
   },
+  "author": "Py Colors",
   "jest": {
     "setupFiles": [
       "./src/test/jestsetup.js"
@@ -37,8 +38,11 @@
     "store": "^1.3.20"
   },
   "devDependencies": {
+    "axios": "^0.18.0",
+    "axios-mock-adapter": "^1.14.1",
     "babel-core": "^6.26.0",
     "babel-loader": "^6.4.1",
+    "babel-plugin-react-transform": "^3.0.0",
     "babel-preset-env": "^1.6.1",
     "babel-preset-react": "^6.24.1",
     "babel-preset-react-hmre": "^1.1.1",
@@ -57,14 +61,17 @@
     "file-loader": "^0.9.0",
     "jest": "^22.4.2",
     "jest-enzyme": "^6.0.0",
+    "moxios": "^0.4.0",
     "node-sass": "^4.7.2",
     "ora": "^0.3.0",
     "prop-types": "^15.6.1",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-test-renderer": "^16.2.0",
+    "react-transform-hmr": "^1.0.4",
     "redux": "^3.7.2",
     "redux-devtools": "^3.3.1",
+    "redux-mock-store": "^1.5.1",
     "sass-loader": "^6.0.7",
     "shelljs": "^0.7.4",
     "style-loader": "^0.13.1",

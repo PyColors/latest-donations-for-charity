@@ -33,7 +33,7 @@ class HomePage extends Component {
             <Row>
               <Col md="12">
                 <Img
-                  src="/src/images/macmillan-bg.jpg"
+                  src="images/macmillan-bg.jpg"
                   alt={dataHomePage.name}
                 />
                 <h1>{dataHomePage.name}</h1>
@@ -83,7 +83,7 @@ class HomePage extends Component {
                 </Row>
               </Col>
             </Row>
-             <a href="#" className="mui-btn mui-btn--danger">More details</a>
+             <a href="https://www.macmillan.org.uk" target="_blank" className="mui-btn mui-btn--danger">More details</a>
           </Container>
         )}
       </div>

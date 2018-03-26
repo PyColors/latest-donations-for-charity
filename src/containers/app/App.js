@@ -7,7 +7,6 @@ import Panel from "muicss/lib/react/panel";
 import HomePage from "../../containers/home-page/HomePage";
 import Header from "../../components/header/Header";
 import Footer from "../../components/footer/Footer";
-import './App.scss';
 
 class App extends Component {
   render() {

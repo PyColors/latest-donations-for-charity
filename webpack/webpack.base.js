@@ -1,7 +1,7 @@
 const path = require("path");
 // Simple path
 const root = path.resolve(__dirname, "../");
-
+ 
 module.exports = {
   entry: {
     app: ["./src/scss/index.scss", "./src/index.js"]

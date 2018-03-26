@@ -1,0 +1,105 @@
+{  
+   "name":"Macmillan Cancer Support",
+   "description":"At Macmillan, we know cancer can affect everything. Your body, your relationships, your money, everything. But Macmillan is here to help people live life, no matter what. We give you the support to hold on to who you are and what’s important. Life with cancer is still life –we’ll help you live it.",
+   "logoUrl":"e419bab6-f588-467f-a64e-5005eeb0734b.jpg",
+   "logoAbsoluteUrl":"https://images.justgiving.com/image/e419bab6-f588-467f-a64e-5005eeb0734b.jpg",
+   "profilePageUrl":"https://www.justgiving.com/macmillan",
+   "registrationNumber":"261017",
+   "websiteUrl":"http://www.macmillan.org.uk",
+   "id":2116,
+   "pageShortName":"macmillan",
+   "emailAddress":"fundraising@macmillan.org.uk",
+   "keywords":"MCR",
+   "dateAddedToJustGiving":"\/Date(1036700780000+0000)\/",
+   "thankyouMessage":"Thanks so much for your donation to Macmillan Cancer Support. Your support means an incredible amount to us.\r\n\r\nAt Macmillan, we know cancer can affect everything. Your body, your relationships, your money, everything. But Macmillan is here to help people live life, no matter what. We give them the support they need to hold on to who they are and what’s important.  But we can’t do it without you. \r\n\r\nLife with cancer is still life – let’s help people live it.",
+   "mobileAppeals":[  
+      {  
+         "smsCode":"MOBL11",
+         "name":"Mob Web donations 2011"
+      },
+      {  
+         "smsCode":"IMEM01",
+         "name":"Mac In Memory Campaign"
+      },
+      {  
+         "smsCode":"SUSX13",
+         "name":"Sussex Appeal"
+      },
+      {  
+         "smsCode":"MACS12",
+         "name":"Mac Social Media 2012"
+      },
+      {  
+         "smsCode":"LINK25",
+         "name":"Translink partnership"
+      },
+      {  
+         "smsCode":"BELF01",
+         "name":"Belfast takeover"
+      },
+      {  
+         "smsCode":"MACM14",
+         "name":"City of London Takeover"
+      },
+      {  
+         "smsCode":"MANC14",
+         "name":"Manchester city FR'ing"
+      },
+      {  
+         "smsCode":"TAME16",
+         "name":"Tameside Macmillan Unit"
+      }
+   ],
+   "categories":[  
+      "Cancer"
+   ],
+   "donationDisplayAmounts":[  
+      {  
+         "amount":3.00,
+         "description":"Can help answer questions on cancer and give support through our helpline",
+         "name":"£3.00",
+         "donationPromptType":"Monthly"
+      },
+      {  
+         "amount":25.00,
+         "description":"Can fund an hour on our support line, giving vital information and support",
+         "name":"£25.00",
+         "donationPromptType":"OneOff"
+      },
+      {  
+         "amount":5.00,
+         "description":"Can help provide counselling to someone dealing with the impact of cancer",
+         "name":"£5.00",
+         "donationPromptType":"Monthly"
+      },
+      {  
+         "amount":50.00,
+         "description":"Can ensure a Macmillan Nurse is there when someone is diagnosed with cancer",
+         "name":"£50.00",
+         "donationPromptType":"OneOff"
+      },
+      {  
+         "amount":10.00,
+         "description":"Can help to provide the one to one medical care which matters so much",
+         "name":"£10.00",
+         "donationPromptType":"Monthly"
+      },
+      {  
+         "amount":100.00,
+         "description":"Can provide benefit advice so people with cancer get the best deal possible",
+         "name":"£100.00",
+         "donationPromptType":"OneOff"
+      }
+   ],
+   "impactStatementWhat":"know cancer affects everything and exist",
+   "impactStatementWhy":"help you live your life.",
+   "countryCode":"GB",
+   "currencyCode":"GBP",
+   "themeColour":{  
+      "alpha":255,
+      "red":0,
+      "green":162,
+      "blue":70
+   },
+   "smsShortName":"Macmillan Cancer Support"
+}

@@ -1,5 +1,5 @@
-import * as constantsActions from "../utils/constants_actions";
 import axios from "axios";
+import * as constantsActions from "../utils/constants_actions";
 
 export function fetchDataIfNeeded() {
   return (dispatch, getState) => {
@@ -39,7 +39,7 @@ export function fetchData() {
   };
 }
 
-function shouldFetchData(state) {
+function shouldFetchData(state) { 
   if (state === null) {
     return false;
   } else {

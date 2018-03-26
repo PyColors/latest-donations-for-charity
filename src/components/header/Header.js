@@ -14,7 +14,7 @@ class Header extends Component {
                   <a href="https://www.macmillan.org.uk/" target="_blank">
                     <img
                       className="app-bar__brand-logo"
-                      src="/src/images/macmillan-logo.jpg"
+                      src="images/macmillan-logo.jpg"
                       alt="macmillan"
                     />
                   </a>

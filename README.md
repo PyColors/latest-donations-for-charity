@@ -1,6 +1,6 @@
 # Latest donations for Macmillan charity [![Build Status](https://travis-ci.org/PyColors/choose-your-iPhone.svg?branch=master)](https://travis-ci.org/PyColors/latest-donations-for-charity)
 
-![N|Solid](http://www.pycolors.com/v2/git/vodafone-iphone-8/vodafone-pycolors.png)
+![N|Solid](http://www.pycolors.com/v2/git/latest-donations-for-charity/latest-donations-for-charity.png)
 
 An application to display the latest donations for a charity using React and Redux. [Demo](http://latest-donations-for-charity-pycolors.c9users.io:8080/)
 
