@@ -21,7 +21,6 @@
       "enzyme-to-json/serializer"
     ]
   },
-  "author": "Py Colors ",
   "license": "ISC",
   "dependencies": {
     "babel-core": "^6.14.0",
