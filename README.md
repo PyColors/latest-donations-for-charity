@@ -18,7 +18,7 @@ Choose your iPhone uses a number of open source projects to work properly:
 
 ### Installation
 
-Dillinger requires [Node.js](https://nodejs.org/) v6+ to run.
+This project requires [Node.js](https://nodejs.org/) v6+ to run.
 
 Install the dependencies and devDependencies.
 
