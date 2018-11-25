@@ -2,6 +2,20 @@
 
 exports[`Render a main 1`] = `
 <main>
-  Hello Jest!
+  <Header />
+  <div
+    className="mui--appbar-height"
+  />
+  <Container
+    className=""
+    fluid={false}
+  >
+    <Panel
+      className="panel-container"
+    >
+      <Connect(HomePage) />
+    </Panel>
+  </Container>
+  <Footer />
 </main>
 `;
