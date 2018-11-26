@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Render a div 1`] = `
+<footer
+  className="footer"
+>
+  <div
+    className="mui-container mui--text-center"
+  >
+    Made with ♥ by 
+    <a
+      className="footer__link"
+      href="https://www.pycolors.com"
+    >
+      Py Colors
+    </a>
+    <br />
+     
+    <br />
+  </div>
+</footer>
+`;
