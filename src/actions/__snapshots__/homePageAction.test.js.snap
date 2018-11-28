@@ -1,0 +1,229 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`fetchData actions Actions Data 1`] = `
+Object {
+  "dataHomePage": Object {
+    "categories": Array [
+      "Cancer",
+    ],
+    "countryCode": "GB",
+    "currencyCode": "GBP",
+    "dateAddedToJustGiving": "/Date(1036700780000+0000)/",
+    "description": "At Macmillan, we know cancer can affect everything. Your body, your relationships, your money, everything. But Macmillan is here to help people live life, no matter what. We give you the support to hold on to who you are and what’s important. Life with cancer is still life –we’ll help you live it.",
+    "donationDisplayAmounts": Array [
+      Object {
+        "amount": 3,
+        "description": "Can help answer questions on cancer and give support through our helpline",
+        "donationPromptType": "Monthly",
+        "name": "£3.00",
+      },
+      Object {
+        "amount": 25,
+        "description": "Can fund an hour on our support line, giving vital information and support",
+        "donationPromptType": "OneOff",
+        "name": "£25.00",
+      },
+      Object {
+        "amount": 5,
+        "description": "Can help provide counselling to someone dealing with the impact of cancer",
+        "donationPromptType": "Monthly",
+        "name": "£5.00",
+      },
+      Object {
+        "amount": 50,
+        "description": "Can ensure a Macmillan Nurse is there when someone is diagnosed with cancer",
+        "donationPromptType": "OneOff",
+        "name": "£50.00",
+      },
+      Object {
+        "amount": 10,
+        "description": "Can help to provide the one to one medical care which matters so much",
+        "donationPromptType": "Monthly",
+        "name": "£10.00",
+      },
+      Object {
+        "amount": 100,
+        "description": "Can provide benefit advice so people with cancer get the best deal possible",
+        "donationPromptType": "OneOff",
+        "name": "£100.00",
+      },
+    ],
+    "emailAddress": "fundraising@macmillan.org.uk",
+    "id": 2116,
+    "impactStatementWhat": "know cancer affects everything and exist",
+    "impactStatementWhy": "help you live your life.",
+    "keywords": "MCR",
+    "logoAbsoluteUrl": "https://images.justgiving.com/image/e419bab6-f588-467f-a64e-5005eeb0734b.jpg",
+    "logoUrl": "e419bab6-f588-467f-a64e-5005eeb0734b.jpg",
+    "mobileAppeals": Array [
+      Object {
+        "name": "Mob Web donations 2011",
+        "smsCode": "MOBL11",
+      },
+      Object {
+        "name": "Mac In Memory Campaign",
+        "smsCode": "IMEM01",
+      },
+      Object {
+        "name": "Sussex Appeal",
+        "smsCode": "SUSX13",
+      },
+      Object {
+        "name": "Mac Social Media 2012",
+        "smsCode": "MACS12",
+      },
+      Object {
+        "name": "Translink partnership",
+        "smsCode": "LINK25",
+      },
+      Object {
+        "name": "Belfast takeover",
+        "smsCode": "BELF01",
+      },
+      Object {
+        "name": "City of London Takeover",
+        "smsCode": "MACM14",
+      },
+      Object {
+        "name": "Manchester city FR'ing",
+        "smsCode": "MANC14",
+      },
+      Object {
+        "name": "Tameside Macmillan Unit",
+        "smsCode": "TAME16",
+      },
+    ],
+    "name": "Macmillan Cancer Support",
+    "pageShortName": "macmillan",
+    "profilePageUrl": "https://www.justgiving.com/macmillan",
+    "registrationNumber": "261017",
+    "smsShortName": "Macmillan Cancer Support",
+    "thankyouMessage": "Thanks so much for your donation to Macmillan Cancer Support. Your support means an incredible amount to us.
+
+At Macmillan, we know cancer can affect everything. Your body, your relationships, your money, everything. But Macmillan is here to help people live life, no matter what. We give them the support they need to hold on to who they are and what’s important.  But we can’t do it without you. 
+
+Life with cancer is still life – let’s help people live it.",
+    "themeColour": Object {
+      "alpha": 255,
+      "blue": 70,
+      "green": 162,
+      "red": 0,
+    },
+    "websiteUrl": "http://www.macmillan.org.uk",
+  },
+}
+`;
+
+exports[`fetchData actions Actions Return dataHomePage 1`] = `
+Object {
+  "dataHomePage": Object {
+    "categories": Array [
+      "Cancer",
+    ],
+    "countryCode": "GB",
+    "currencyCode": "GBP",
+    "dateAddedToJustGiving": "/Date(1036700780000+0000)/",
+    "description": "At Macmillan, we know cancer can affect everything. Your body, your relationships, your money, everything. But Macmillan is here to help people live life, no matter what. We give you the support to hold on to who you are and what’s important. Life with cancer is still life –we’ll help you live it.",
+    "donationDisplayAmounts": Array [
+      Object {
+        "amount": 3,
+        "description": "Can help answer questions on cancer and give support through our helpline",
+        "donationPromptType": "Monthly",
+        "name": "£3.00",
+      },
+      Object {
+        "amount": 25,
+        "description": "Can fund an hour on our support line, giving vital information and support",
+        "donationPromptType": "OneOff",
+        "name": "£25.00",
+      },
+      Object {
+        "amount": 5,
+        "description": "Can help provide counselling to someone dealing with the impact of cancer",
+        "donationPromptType": "Monthly",
+        "name": "£5.00",
+      },
+      Object {
+        "amount": 50,
+        "description": "Can ensure a Macmillan Nurse is there when someone is diagnosed with cancer",
+        "donationPromptType": "OneOff",
+        "name": "£50.00",
+      },
+      Object {
+        "amount": 10,
+        "description": "Can help to provide the one to one medical care which matters so much",
+        "donationPromptType": "Monthly",
+        "name": "£10.00",
+      },
+      Object {
+        "amount": 100,
+        "description": "Can provide benefit advice so people with cancer get the best deal possible",
+        "donationPromptType": "OneOff",
+        "name": "£100.00",
+      },
+    ],
+    "emailAddress": "fundraising@macmillan.org.uk",
+    "id": 2116,
+    "impactStatementWhat": "know cancer affects everything and exist",
+    "impactStatementWhy": "help you live your life.",
+    "keywords": "MCR",
+    "logoAbsoluteUrl": "https://images.justgiving.com/image/e419bab6-f588-467f-a64e-5005eeb0734b.jpg",
+    "logoUrl": "e419bab6-f588-467f-a64e-5005eeb0734b.jpg",
+    "mobileAppeals": Array [
+      Object {
+        "name": "Mob Web donations 2011",
+        "smsCode": "MOBL11",
+      },
+      Object {
+        "name": "Mac In Memory Campaign",
+        "smsCode": "IMEM01",
+      },
+      Object {
+        "name": "Sussex Appeal",
+        "smsCode": "SUSX13",
+      },
+      Object {
+        "name": "Mac Social Media 2012",
+        "smsCode": "MACS12",
+      },
+      Object {
+        "name": "Translink partnership",
+        "smsCode": "LINK25",
+      },
+      Object {
+        "name": "Belfast takeover",
+        "smsCode": "BELF01",
+      },
+      Object {
+        "name": "City of London Takeover",
+        "smsCode": "MACM14",
+      },
+      Object {
+        "name": "Manchester city FR'ing",
+        "smsCode": "MANC14",
+      },
+      Object {
+        "name": "Tameside Macmillan Unit",
+        "smsCode": "TAME16",
+      },
+    ],
+    "name": "Macmillan Cancer Support",
+    "pageShortName": "macmillan",
+    "profilePageUrl": "https://www.justgiving.com/macmillan",
+    "registrationNumber": "261017",
+    "smsShortName": "Macmillan Cancer Support",
+    "thankyouMessage": "Thanks so much for your donation to Macmillan Cancer Support. Your support means an incredible amount to us.
+
+At Macmillan, we know cancer can affect everything. Your body, your relationships, your money, everything. But Macmillan is here to help people live life, no matter what. We give them the support they need to hold on to who they are and what’s important.  But we can’t do it without you. 
+
+Life with cancer is still life – let’s help people live it.",
+    "themeColour": Object {
+      "alpha": 255,
+      "blue": 70,
+      "green": 162,
+      "red": 0,
+    },
+    "websiteUrl": "http://www.macmillan.org.uk",
+  },
+}
+`;
