@@ -1,10 +1,11 @@
 import configureMockStore from "redux-mock-store";
+
 import thunk from "redux-thunk";
 import moxios from "moxios";
 import expect from "expect";
 import * as constantsActions from "../utils/constants_actions";
 import getLatestDonationsMock from "../mocks/getLatestDonationsMock";
-import { loadDataHomePage } from "./homePageAction";
+import {fetchData, loadDataHomePage} from './homePageAction'
 
 const middlewares = [thunk];
 const mockStore = configureMockStore(middlewares);
@@ -18,7 +19,7 @@ describe("fetchData actions", () => {
         moxios.uninstall();
     });
 
-    it("Creates RECEIVE_DATA_HOME_PAGE", () => {
+  describe("Actions", () => {
         moxios.wait(() => {
             const request = moxios.requests.mostRecent();
             request.respondWith({
@@ -27,17 +28,14 @@ describe("fetchData actions", () => {
             });
         });
 
-        const expectedActions = [
-            { type: constantsActions.FETCH_DATA_HOME_PAGE },
-            {
-                type: constantsActions.RECEIVE_DATA_HOME_PAGE,
-                dataHomePage: getLatestDonationsMock
-            }
-        ];
-
-        const store = mockStore({ dataHomePage: {} });
-
-        expect(store.getActions()).toEqual([]);
-
+    it('Return dataHomePage', () => {
+      const expectedData = { dataHomePage: getLatestDonationsMock }
+      const store = mockStore({
+        dataHomePage: getLatestDonationsMock
+      })
+      expect(store.getState(fetchData)).toEqual(expectedData);
+      expect(store.getState()).toMatchSnapshot();
     });
+  });
 });
+
