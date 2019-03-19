@@ -100,9 +100,9 @@ function mapStateToProps(state) {
   const { dataHomePage, isLoading, error } = state.homePageReducer;
 
   return {
-    dataHomePage: dataHomePage,
-    error: error,
-    isLoading: isLoading
+    dataHomePage,
+    error,
+    isLoading
   };
 }
 
