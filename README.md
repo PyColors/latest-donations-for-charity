@@ -4,6 +4,12 @@
 An application to display the latest donations for a charity using React and Redux. 
 ### [Demo](http://www.pycolors.com/v2/git/latest-donations-for-charity)
 
+### Status
+
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/PyColors/latest-donations-for-charity/master/LICENSE)
+[![dependencies Status](https://david-dm.org/StartBootstrap/startbootstrap-clean-blog/status.svg)](https://david-dm.org/PyColors/latest-donations-for-charity)
+[![devDependencies Status](https://david-dm.org/StartBootstrap/startbootstrap-clean-blog/dev-status.svg)](https://david-dm.org/PyColors/latest-donations-for-charitytype=dev)
+
 ### Tech
 
 Choose your iPhone uses a number of open source projects to work properly:
