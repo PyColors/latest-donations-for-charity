@@ -1,11 +1,12 @@
-# Latest donations for Macmillan charity [![Build Status](https://travis-ci.org/PyColors/latest-donations-for-charity.svg?branch=master)](https://travis-ci.org/PyColors/latest-donations-for-charity)
+# Latest donations for Macmillan charity 
 
 ![N|Solid](http://www.pycolors.com/v2/git/latest-donations-for-charity/latest-donations-for-charity.png)
 An application to display the latest donations for a charity using React and Redux. 
-### [Demo](http://www.pycolors.com/v2/git/latest-donations-for-charity)
+### [View Live Preview](http://www.pycolors.com/v2/git/latest-donations-for-charity)
 
 ### Status
 
+[![Build Status](https://travis-ci.org/PyColors/latest-donations-for-charity.svg?branch=master)](https://travis-ci.org/PyColors/latest-donations-for-charity)
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/PyColors/latest-donations-for-charity/master/LICENSE)
 [![dependencies Status](https://david-dm.org/StartBootstrap/startbootstrap-clean-blog/status.svg)](https://david-dm.org/PyColors/latest-donations-for-charity)
 [![devDependencies Status](https://david-dm.org/StartBootstrap/startbootstrap-clean-blog/dev-status.svg)](https://david-dm.org/PyColors/latest-donations-for-charitytype=dev)
